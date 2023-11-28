@@ -3,8 +3,7 @@ import ProjectsGrid from "../components/projects/ProjectsGrid";
 
 const Home = () => {
   return (
-    // mx-auto
-    <div className="container ">
+    <div className="container mx-auto ">
       <AppBanner />
       <ProjectsGrid className="mx-auto" />
     </div>
