@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Quicksand&display=swap');
+
+html, body{
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #16213E;
+    color: white;
+}
+
+@keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+@keyframes slideInTop {
+    0% {
+      transform: translateY(-10%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+@keyframes slideInBottom {
+    0% {
+      transform: translateY(10%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+@keyframes slideInBottomTechnology {
+    0% {
+      transform: translateY(10%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  .slide-in-left {
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: slideInLeft;
+  }
+  .slide-in-top {
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: slideInTop;
+  }
+  .slide-in-bottom {
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: slideInBottom;
+  }
