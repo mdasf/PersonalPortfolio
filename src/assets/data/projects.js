@@ -48,7 +48,7 @@ export const projectsData = [
   {
     id: 6,
     title: "Netflix UI Clone",
-    category: "ReactJs, CSS, Firebase",
+    category: "ReactJs, CSS",
     img: NetflixImage,
     liveLink: "https://netflix-clone-a2016.firebaseapp.com/",
   },
